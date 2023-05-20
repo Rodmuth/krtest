@@ -6,7 +6,7 @@ country = {
 ai = "kaiserreich\austria.ai"
     policy = {
         date = { year = 0 month = january day = 0 }
-        democratic = 4
+        democratic = 3
         political_left = 3
         free_market = 6
         freedom = 6
@@ -19,11 +19,11 @@ ai = "kaiserreich\austria.ai"
 	headofstate = { type = 9 id = 23028 } #Otto I von Habsburg AD
 	headofgovernment = { type = 9 id = 23061 } #Albert von Mensdorff-Pouilly
 	foreignminister = { type = 9 id = 23084 } #Alfred von Arbengau
-	armamentminister = { type = 9 id = 23107 } #Viktor Kienböck
-	ministerofsecurity = { type = 9 id = 23141 } #Lorenz Böhler
+	armamentminister = { type = 9 id = 23107 } #Viktor KienbÃ¶ck
+	ministerofsecurity = { type = 9 id = 23141 } #Lorenz BÃ¶hler
 	ministerofintelligence = { type = 9 id = 23148 } #Alfred von Schenk
-	chiefofstaff = { type = 9 id = 23179 } #Alfred von Waldstätten
-	chiefofarmy = { type = 9 id = 23203 } #Sigismund Schilhawsky von Bahnbrück
+	chiefofstaff = { type = 9 id = 23179 } #Alfred von WaldstÃ¤tten
+	chiefofarmy = { type = 9 id = 23203 } #Sigismund Schilhawsky von BahnbrÃ¼ck
 	chiefofnavy = { type = 9 id = 23249 } #Janko Vukovic de Podkapelski
 	chiefofair = { type = 9 id = 23260 } #Karl Nikitsch
 
@@ -294,7 +294,7 @@ name = "Armeekreis Italien"
 landunit = {
 id = { type = 17352       id = 11 }
 location = 192
-name = "Armeekreis Oberösterreich"
+name = "Armeekreis OberÃ¶sterreich"
 
 
  division = {
@@ -327,7 +327,7 @@ name = "Armeekreis Oberösterreich"
 landunit = {
 id = { type = 17352       id = 15 }
 location = 195
-name = "Armeekreis Niederösterreich-Wien"
+name = "Armeekreis NiederÃ¶sterreich-Wien"
 
 
  division = {
@@ -360,7 +360,7 @@ name = "Armeekreis Niederösterreich-Wien"
 landunit = {
 id = { type = 17352       id = 19 }
 location = 349
-name = "Armeekreis Kärnten"
+name = "Armeekreis KÃ¤rnten"
 
 
  division = {
@@ -394,11 +394,11 @@ name = "Armeekreis Kärnten"
 landunit = {
 id = { type = 17352       id = 23 }
 location = 401
-name = "Tiroler Schützen"
+name = "Tiroler SchÃ¼tzen"
 
  division = {
         id = { type = 17352       id = 24 }
- name = "1. Alpenjägerdivision"
+ name = "1. AlpenjÃ¤gerdivision"
  type = bergsjaeger
  strength  = 80
  model = 8
@@ -408,7 +408,7 @@ name = "Tiroler Schützen"
 
  division = {
         id = { type = 17352       id = 25 }
- name = "2. Alpenjägerdivision"
+ name = "2. AlpenjÃ¤gerdivision"
  type = bergsjaeger
  strength  = 80             
  model = 8
@@ -453,11 +453,11 @@ name = "Garnison Prag"
 landunit = {
 id = { type = 17352       id = 29 }
 location = 208
-name = "Garnison Preßburg"
+name = "Garnison PreÃŸburg"
 
  division = {
         id = { type = 17352       id = 30 }
- name = "Garnison Preßburg"
+ name = "Garnison PreÃŸburg"
  type = garrison
                locked = yes
  strength  = 30
@@ -583,7 +583,7 @@ name = "Adriatische Festung"
 
 airunit = {
        id = { type = 17352       id = 45 }
-       name = "Grünhertz Kampfgruppen"
+       name = "GrÃ¼nhertz Kampfgruppen"
        location = 195
        prevprov = 195
        home = 195
@@ -609,7 +609,7 @@ airunit = {
 
 airunit = {
        id = { type = 17352       id = 48 }
-       name = "Gottfried Küstengruppen"
+       name = "Gottfried KÃ¼stengruppen"
        location = 400
        prevprov = 400
        home = 400
@@ -617,7 +617,7 @@ airunit = {
 
        division = {
            id = { type = 17352       id = 49 }
-           name = "Gottfried Küstengruppen"
+           name = "Gottfried KÃ¼stengruppen"
            type = naval_bomber
 	   model = 1
            strength = 60
@@ -627,7 +627,7 @@ airunit = {
 
 airunit = {
        id = { type = 17352       id = 50 }
-       name = "Adriatische Küstengruppen"
+       name = "Adriatische KÃ¼stengruppen"
        location = 406
        prevprov = 406
        home = 406
@@ -635,7 +635,7 @@ airunit = {
 
        division = {
            id = { type = 17352       id = 51 }
-           name = "Adriatische Küstengruppen"
+           name = "Adriatische KÃ¼stengruppen"
            type = naval_bomber
            strength = 30
 	   model = 1
@@ -643,7 +643,7 @@ airunit = {
            }
        }
 
-# Die Kaiserliche und Königliche Kriegsmarine
+# Die Kaiserliche und KÃ¶nigliche Kriegsmarine
 
 navalunit = {
 name = "I.KuK Schlachtschwadron"
@@ -695,13 +695,13 @@ division = { id = { type = 17352 id = 70 } name = "SMS Admiral Horthy" type = li
 }
 
 navalunit = {
-name = "I.KuK Zerstörerflotte"
+name = "I.KuK ZerstÃ¶rerflotte"
 id = { type = 17352 id = 71 }
 location = 406
 base = 406
-division = { id = { type = 17352 id = 72 } name = "1. Torpedobootzerstörerschwadron" type = destroyer model = 3 }
-division = { id = { type = 17352 id = 73 } name = "2. Torpedobootzerstörerschwadron" type = destroyer model = 3 }
-division = { id = { type = 17352 id = 74 } name = "3. Torpedobootzerstörerschwadron" type = destroyer model = 3 }
+division = { id = { type = 17352 id = 72 } name = "1. TorpedobootzerstÃ¶rerschwadron" type = destroyer model = 3 }
+division = { id = { type = 17352 id = 73 } name = "2. TorpedobootzerstÃ¶rerschwadron" type = destroyer model = 3 }
+division = { id = { type = 17352 id = 74 } name = "3. TorpedobootzerstÃ¶rerschwadron" type = destroyer model = 3 }
 
 }
 
@@ -731,12 +731,12 @@ division = { id = { type = 17352 id = 82 } name = "SMS Admiral Spaun" type = lig
 }
 
 navalunit = {
-name = "II.KuK Zerstörerflotte"
+name = "II.KuK ZerstÃ¶rerflotte"
 id = { type = 17352 id = 83 }
 location = 406
 base = 406
-division = { id = { type = 17352 id = 84 } name = "4. Torpedobootzerstörerschwadron" type = destroyer model = 2 }
-division = { id = { type = 17352 id = 85 } name = "5. Torpedobootzerstörerschwadron" type = destroyer model = 2 }
+division = { id = { type = 17352 id = 84 } name = "4. TorpedobootzerstÃ¶rerschwadron" type = destroyer model = 2 }
+division = { id = { type = 17352 id = 85 } name = "5. TorpedobootzerstÃ¶rerschwadron" type = destroyer model = 2 }
 
 
 }
