@@ -1,6 +1,6 @@
 config.eu
 scenarios/save games/*
-sfx/
+sfx/wave
 music/
 gfx/
 *.BMP
