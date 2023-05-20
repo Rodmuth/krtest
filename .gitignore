@@ -1,5 +1,9 @@
 config.eu
-music/*
-!music/mosleymanifesto.mp3
-!music/MosleyManifesto.txt
 scenarios/save games/*
+sfx/
+music/
+gfx/
+*.BMP
+icon.ico
+icon_lrg.ico
+map/
